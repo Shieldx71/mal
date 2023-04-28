@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0,0,0,0)),url(back.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+    width: 80%;
+    margin: auto;
+    padding: 35px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+
+}
+.cin{
+    text-align: center;
+    color: white;
+}
+.cin h1{
+    font-size: 100px;
+    color: rgba(218, 20, 20, 0.952);
+}
+.email{
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+     border-color: red;
+}
+.gh{
+    border-radius: 80px;
+}
